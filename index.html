@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Links</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffffff, #f1f1f1);
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid #1a1a1a;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .link {
+      display: block;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 20px;
+      margin: 12px 0;
+      border-radius: 10px;
+      font-weight: 500;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .link:hover {
+      background: #333;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>My Work</h1>
+
+    <a class="link" href="https://drive.google.com/file/d/1EMGvx9HBRjF6ihDjWOoxhbBHb7myZZ_i/view?usp=drive_link" target="_blank">
+      Adaptive Fill (Carnet de recherche)
+    </a>
+
+    <a class="link" href="https://www.behance.net/gallery/223052315/Product-Design-Portfolio?fbclid=PAZXh0bgNhZW0CMTEAAadXcQHNSmD0JTjnESK7d5nUtnXbaJfJqSlTEcKEAl8_ll2qcWf-fMQXo38fwg_aem_Kp25eRiOYIEhxzVsXiiU0w" target="_blank">
+      Behance Portfolio
+    </a>
+
+    <div class="footer">
+      © 2025 | Mya Timmermans
+    </div>
+  </div>
+
+</body>
+</html>
